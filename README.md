@@ -8,6 +8,8 @@ Before:
 
 <img width="838" alt="Pasted Graphic" src="https://github.com/user-attachments/assets/bafc2eef-7671-4cef-8aa3-b067b44b2895" />
 
+
+
 After: 
 
 Light Mode
