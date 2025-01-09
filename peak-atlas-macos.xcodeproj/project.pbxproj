@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		131179E02D303C6400A79C17 /* BlurredBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131179DF2D303C6400A79C17 /* BlurredBackgroundView.swift */; };
+		ED021F562CEE6AAA00635A69 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED021F552CEE6AAA00635A69 /* DateExtension.swift */; };
+		ED1BBCD52CD692DA00AF2BA9 /* peak_atlas_macosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1BBCD42CD692DA00AF2BA9 /* peak_atlas_macosApp.swift */; };
+		ED1BBCD92CD692DB00AF2BA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED1BBCD82CD692DB00AF2BA9 /* Assets.xcassets */; };
+		ED1BBCDC2CD692DB00AF2BA9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED1BBCDB2CD692DB00AF2BA9 /* Preview Assets.xcassets */; };
+		ED1BBCE72CD692DB00AF2BA9 /* peak_atlas_macosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1BBCE62CD692DB00AF2BA9 /* peak_atlas_macosTests.swift */; };
+		ED1BBCF12CD692DB00AF2BA9 /* peak_atlas_macosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1BBCF02CD692DB00AF2BA9 /* peak_atlas_macosUITests.swift */; };
+		ED1BBCF32CD692DB00AF2BA9 /* peak_atlas_macosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1BBCF22CD692DB00AF2BA9 /* peak_atlas_macosUITestsLaunchTests.swift */; };
+		ED1BBD012CD6930900AF2BA9 /* ClipboardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1BBD002CD6930900AF2BA9 /* ClipboardItem.swift */; };
+		ED1BBD042CD6936200AF2BA9 /* ClipboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1BBD032CD6936200AF2BA9 /* ClipboardManager.swift */; };
+		ED1BBD082CD693C500AF2BA9 /* ClipboardItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1BBD072CD693C500AF2BA9 /* ClipboardItemView.swift */; };
+		ED285E902CE12FBB000851E9 /* ArrayWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED285E8F2CE12FBB000851E9 /* ArrayWrapper.swift */; };
+		ED3BF71F2D00BABF0039E72A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3BF71E2D00BABF0039E72A /* HeaderView.swift */; };
+		ED3BF7212D00C1EE0039E72A /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3BF7202D00C1EE0039E72A /* SidebarView.swift */; };
+		ED3BF7232D00C8D80039E72A /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3BF7222D00C8D80039E72A /* ListView.swift */; };
+		ED64721C2CDDD05000378BAD /* ClipboardItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED64721B2CDDD05000378BAD /* ClipboardItemViewModel.swift */; };
+		ED64721E2CDDD95D00378BAD /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED64721D2CDDD95D00378BAD /* ViewExtension.swift */; };
+		ED75B79B2CEFA1420080AE6C /* NSImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED75B79A2CEFA1420080AE6C /* NSImageExtension.swift */; };
+		ED75B79D2CEFA3310080AE6C /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED75B79C2CEFA3310080AE6C /* StringExtension.swift */; };
+		ED87CEE72CDD1C6B0043CC60 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED87CEE62CDD1C6B0043CC60 /* ColorExtension.swift */; };
+		ED87CEE92CDD21D20043CC60 /* BorderlessWindowModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED87CEE82CDD21D20043CC60 /* BorderlessWindowModifier.swift */; };
+		ED8E24B42CFAF76600AA44C5 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8E24B32CFAF76600AA44C5 /* FilterView.swift */; };
+		ED8E24B82CFAF9B500AA44C5 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8E24B72CFAF9B500AA44C5 /* FontExtension.swift */; };
+		ED8E24BA2CFC37E000AA44C5 /* AddCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8E24B92CFC37E000AA44C5 /* AddCollectionView.swift */; };
+		ED8E24BC2CFCC77B00AA44C5 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8E24BB2CFCC77B00AA44C5 /* ItemDetailView.swift */; };
+		ED8E24BE2CFCCB5100AA44C5 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8E24BD2CFCCB5100AA44C5 /* SettingView.swift */; };
+		ED8E24C02CFCDA0C00AA44C5 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8E24BF2CFCDA0C00AA44C5 /* SearchBar.swift */; };
+		ED8E24C22CFCDBF900AA44C5 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8E24C12CFCDBF900AA44C5 /* CollectionView.swift */; };
+		ED8E24C52CFCDC9D00AA44C5 /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8E24C42CFCDC9D00AA44C5 /* ListItemView.swift */; };
+		ED9837702CDA715D00644FB6 /* CopiedItem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED98376E2CDA715D00644FB6 /* CopiedItem.xcdatamodeld */; };
+		ED9837722CDA774900644FB6 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9837712CDA774900644FB6 /* CoreDataManager.swift */; };
+		EDF05D112CD8F7A300EFA4E5 /* HotKey in Frameworks */ = {isa = PBXBuildFile; productRef = EDF05D102CD8F7A300EFA4E5 /* HotKey */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED1BBCE32CD692DB00AF2BA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED1BBCC92CD692DA00AF2BA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED1BBCD02CD692DA00AF2BA9;
+			remoteInfo = "peak-atlas-macos";
+		};
+		ED1BBCED2CD692DB00AF2BA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED1BBCC92CD692DA00AF2BA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED1BBCD02CD692DA00AF2BA9;
+			remoteInfo = "peak-atlas-macos";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		131179DF2D303C6400A79C17 /* BlurredBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurredBackgroundView.swift; sourceTree = "<group>"; };
+		ED021F552CEE6AAA00635A69 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		ED1BBCD12CD692DA00AF2BA9 /* peak-atlas-macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "peak-atlas-macos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1BBCD42CD692DA00AF2BA9 /* peak_atlas_macosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = peak_atlas_macosApp.swift; sourceTree = "<group>"; };
+		ED1BBCD82CD692DB00AF2BA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED1BBCDB2CD692DB00AF2BA9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED1BBCDD2CD692DB00AF2BA9 /* peak_atlas_macos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = peak_atlas_macos.entitlements; sourceTree = "<group>"; };
+		ED1BBCE22CD692DB00AF2BA9 /* peak-atlas-macosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "peak-atlas-macosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1BBCE62CD692DB00AF2BA9 /* peak_atlas_macosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = peak_atlas_macosTests.swift; sourceTree = "<group>"; };
+		ED1BBCEC2CD692DB00AF2BA9 /* peak-atlas-macosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "peak-atlas-macosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1BBCF02CD692DB00AF2BA9 /* peak_atlas_macosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = peak_atlas_macosUITests.swift; sourceTree = "<group>"; };
+		ED1BBCF22CD692DB00AF2BA9 /* peak_atlas_macosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = peak_atlas_macosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ED1BBD002CD6930900AF2BA9 /* ClipboardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardItem.swift; sourceTree = "<group>"; };
+		ED1BBD032CD6936200AF2BA9 /* ClipboardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardManager.swift; sourceTree = "<group>"; };
+		ED1BBD072CD693C500AF2BA9 /* ClipboardItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardItemView.swift; sourceTree = "<group>"; };
+		ED285E8F2CE12FBB000851E9 /* ArrayWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayWrapper.swift; sourceTree = "<group>"; };
+		ED3BF71E2D00BABF0039E72A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		ED3BF7202D00C1EE0039E72A /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		ED3BF7222D00C8D80039E72A /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		ED64721B2CDDD05000378BAD /* ClipboardItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipboardItemViewModel.swift; sourceTree = "<group>"; };
+		ED64721D2CDDD95D00378BAD /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		ED75B79A2CEFA1420080AE6C /* NSImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImageExtension.swift; sourceTree = "<group>"; };
+		ED75B79C2CEFA3310080AE6C /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		ED87CEE62CDD1C6B0043CC60 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		ED87CEE82CDD21D20043CC60 /* BorderlessWindowModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderlessWindowModifier.swift; sourceTree = "<group>"; };
+		ED8E24B32CFAF76600AA44C5 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		ED8E24B72CFAF9B500AA44C5 /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
+		ED8E24B92CFC37E000AA44C5 /* AddCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCollectionView.swift; sourceTree = "<group>"; };
+		ED8E24BB2CFCC77B00AA44C5 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
+		ED8E24BD2CFCCB5100AA44C5 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		ED8E24BF2CFCDA0C00AA44C5 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		ED8E24C12CFCDBF900AA44C5 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		ED8E24C42CFCDC9D00AA44C5 /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
+		ED98376F2CDA715D00644FB6 /* CopiedItem.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CopiedItem.xcdatamodel; sourceTree = "<group>"; };
+		ED9837712CDA774900644FB6 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED1BBCCE2CD692DA00AF2BA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF05D112CD8F7A300EFA4E5 /* HotKey in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1BBCDF2CD692DB00AF2BA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1BBCE92CD692DB00AF2BA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED1BBCC82CD692DA00AF2BA9 = {
+			isa = PBXGroup;
+			children = (
+				ED1BBCD32CD692DA00AF2BA9 /* peak-atlas-macos */,
+				ED1BBCEF2CD692DB00AF2BA9 /* peak-atlas-macosUITests */,
+				ED1BBCD22CD692DA00AF2BA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED1BBCD22CD692DA00AF2BA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED1BBCD12CD692DA00AF2BA9 /* peak-atlas-macos.app */,
+				ED1BBCE22CD692DB00AF2BA9 /* peak-atlas-macosTests.xctest */,
+				ED1BBCEC2CD692DB00AF2BA9 /* peak-atlas-macosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED1BBCD32CD692DA00AF2BA9 /* peak-atlas-macos */ = {
+			isa = PBXGroup;
+			children = (
+				ED64721A2CDDD00900378BAD /* CoreDataModel */,
+				ED1BBD052CD6937100AF2BA9 /* Modules */,
+				ED1BBD022CD6935800AF2BA9 /* Utilities */,
+				ED1BBCE52CD692DB00AF2BA9 /* peak-atlas-macosTests */,
+				ED1BBCD42CD692DA00AF2BA9 /* peak_atlas_macosApp.swift */,
+				ED1BBCD82CD692DB00AF2BA9 /* Assets.xcassets */,
+				ED1BBCDD2CD692DB00AF2BA9 /* peak_atlas_macos.entitlements */,
+				ED1BBCDA2CD692DB00AF2BA9 /* Preview Content */,
+			);
+			path = "peak-atlas-macos";
+			sourceTree = "<group>";
+		};
+		ED1BBCDA2CD692DB00AF2BA9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ED1BBCDB2CD692DB00AF2BA9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ED1BBCE52CD692DB00AF2BA9 /* peak-atlas-macosTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED1BBCE62CD692DB00AF2BA9 /* peak_atlas_macosTests.swift */,
+			);
+			path = "peak-atlas-macosTests";
+			sourceTree = "<group>";
+		};
+		ED1BBCEF2CD692DB00AF2BA9 /* peak-atlas-macosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED1BBCF02CD692DB00AF2BA9 /* peak_atlas_macosUITests.swift */,
+				ED1BBCF22CD692DB00AF2BA9 /* peak_atlas_macosUITestsLaunchTests.swift */,
+			);
+			path = "peak-atlas-macosUITests";
+			sourceTree = "<group>";
+		};
+		ED1BBCFF2CD6930100AF2BA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED1BBD002CD6930900AF2BA9 /* ClipboardItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED1BBD022CD6935800AF2BA9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				131179DF2D303C6400A79C17 /* BlurredBackgroundView.swift */,
+				ED9837712CDA774900644FB6 /* CoreDataManager.swift */,
+				ED1BBD032CD6936200AF2BA9 /* ClipboardManager.swift */,
+				ED87CEE62CDD1C6B0043CC60 /* ColorExtension.swift */,
+				ED87CEE82CDD21D20043CC60 /* BorderlessWindowModifier.swift */,
+				ED64721D2CDDD95D00378BAD /* ViewExtension.swift */,
+				ED285E8F2CE12FBB000851E9 /* ArrayWrapper.swift */,
+				ED021F552CEE6AAA00635A69 /* DateExtension.swift */,
+				ED75B79A2CEFA1420080AE6C /* NSImageExtension.swift */,
+				ED75B79C2CEFA3310080AE6C /* StringExtension.swift */,
+				ED8E24B72CFAF9B500AA44C5 /* FontExtension.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		ED1BBD052CD6937100AF2BA9 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				ED1BBD062CD6937600AF2BA9 /* ClipboardItem */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		ED1BBD062CD6937600AF2BA9 /* ClipboardItem */ = {
+			isa = PBXGroup;
+			children = (
+				ED1BBCFF2CD6930100AF2BA9 /* Model */,
+				ED8E24B22CFAF75600AA44C5 /* Views */,
+			);
+			path = ClipboardItem;
+			sourceTree = "<group>";
+		};
+		ED3BF71C2D00B2050039E72A /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				ED8E24B32CFAF76600AA44C5 /* FilterView.swift */,
+				ED8E24B92CFC37E000AA44C5 /* AddCollectionView.swift */,
+				ED8E24BB2CFCC77B00AA44C5 /* ItemDetailView.swift */,
+				ED8E24BD2CFCCB5100AA44C5 /* SettingView.swift */,
+				ED3BF7202D00C1EE0039E72A /* SidebarView.swift */,
+			);
+			path = Sidebar;
+			sourceTree = "<group>";
+		};
+		ED3BF71D2D00B21A0039E72A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				ED8E24BF2CFCDA0C00AA44C5 /* SearchBar.swift */,
+				ED8E24C12CFCDBF900AA44C5 /* CollectionView.swift */,
+				ED8E24C42CFCDC9D00AA44C5 /* ListItemView.swift */,
+				ED3BF71E2D00BABF0039E72A /* HeaderView.swift */,
+				ED3BF7222D00C8D80039E72A /* ListView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		ED64721A2CDDD00900378BAD /* CoreDataModel */ = {
+			isa = PBXGroup;
+			children = (
+				ED98376E2CDA715D00644FB6 /* CopiedItem.xcdatamodeld */,
+			);
+			path = CoreDataModel;
+			sourceTree = "<group>";
+		};
+		ED8E24B22CFAF75600AA44C5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED1BBD072CD693C500AF2BA9 /* ClipboardItemView.swift */,
+				ED64721B2CDDD05000378BAD /* ClipboardItemViewModel.swift */,
+				ED3BF71D2D00B21A0039E72A /* Main */,
+				ED3BF71C2D00B2050039E72A /* Sidebar */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED1BBCD02CD692DA00AF2BA9 /* peak-atlas-macos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED1BBCF62CD692DB00AF2BA9 /* Build configuration list for PBXNativeTarget "peak-atlas-macos" */;
+			buildPhases = (
+				ED1BBCCD2CD692DA00AF2BA9 /* Sources */,
+				ED1BBCCE2CD692DA00AF2BA9 /* Frameworks */,
+				ED1BBCCF2CD692DA00AF2BA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "peak-atlas-macos";
+			packageProductDependencies = (
+				EDF05D102CD8F7A300EFA4E5 /* HotKey */,
+			);
+			productName = "peak-atlas-macos";
+			productReference = ED1BBCD12CD692DA00AF2BA9 /* peak-atlas-macos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED1BBCE12CD692DB00AF2BA9 /* peak-atlas-macosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED1BBCF92CD692DB00AF2BA9 /* Build configuration list for PBXNativeTarget "peak-atlas-macosTests" */;
+			buildPhases = (
+				ED1BBCDE2CD692DB00AF2BA9 /* Sources */,
+				ED1BBCDF2CD692DB00AF2BA9 /* Frameworks */,
+				ED1BBCE02CD692DB00AF2BA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED1BBCE42CD692DB00AF2BA9 /* PBXTargetDependency */,
+			);
+			name = "peak-atlas-macosTests";
+			productName = "peak-atlas-macosTests";
+			productReference = ED1BBCE22CD692DB00AF2BA9 /* peak-atlas-macosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED1BBCEB2CD692DB00AF2BA9 /* peak-atlas-macosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED1BBCFC2CD692DB00AF2BA9 /* Build configuration list for PBXNativeTarget "peak-atlas-macosUITests" */;
+			buildPhases = (
+				ED1BBCE82CD692DB00AF2BA9 /* Sources */,
+				ED1BBCE92CD692DB00AF2BA9 /* Frameworks */,
+				ED1BBCEA2CD692DB00AF2BA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED1BBCEE2CD692DB00AF2BA9 /* PBXTargetDependency */,
+			);
+			name = "peak-atlas-macosUITests";
+			productName = "peak-atlas-macosUITests";
+			productReference = ED1BBCEC2CD692DB00AF2BA9 /* peak-atlas-macosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED1BBCC92CD692DA00AF2BA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					ED1BBCD02CD692DA00AF2BA9 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					ED1BBCE12CD692DB00AF2BA9 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = ED1BBCD02CD692DA00AF2BA9;
+					};
+					ED1BBCEB2CD692DB00AF2BA9 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = ED1BBCD02CD692DA00AF2BA9;
+					};
+				};
+			};
+			buildConfigurationList = ED1BBCCC2CD692DA00AF2BA9 /* Build configuration list for PBXProject "peak-atlas-macos" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED1BBCC82CD692DA00AF2BA9;
+			packageReferences = (
+				EDF05D0F2CD8F7A300EFA4E5 /* XCRemoteSwiftPackageReference "HotKey" */,
+			);
+			productRefGroup = ED1BBCD22CD692DA00AF2BA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED1BBCD02CD692DA00AF2BA9 /* peak-atlas-macos */,
+				ED1BBCE12CD692DB00AF2BA9 /* peak-atlas-macosTests */,
+				ED1BBCEB2CD692DB00AF2BA9 /* peak-atlas-macosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED1BBCCF2CD692DA00AF2BA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1BBCDC2CD692DB00AF2BA9 /* Preview Assets.xcassets in Resources */,
+				ED1BBCD92CD692DB00AF2BA9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1BBCE02CD692DB00AF2BA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1BBCEA2CD692DB00AF2BA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED1BBCCD2CD692DA00AF2BA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1BBD082CD693C500AF2BA9 /* ClipboardItemView.swift in Sources */,
+				ED021F562CEE6AAA00635A69 /* DateExtension.swift in Sources */,
+				ED8E24B82CFAF9B500AA44C5 /* FontExtension.swift in Sources */,
+				ED8E24C52CFCDC9D00AA44C5 /* ListItemView.swift in Sources */,
+				ED1BBD042CD6936200AF2BA9 /* ClipboardManager.swift in Sources */,
+				ED75B79B2CEFA1420080AE6C /* NSImageExtension.swift in Sources */,
+				ED1BBCD52CD692DA00AF2BA9 /* peak_atlas_macosApp.swift in Sources */,
+				ED3BF7232D00C8D80039E72A /* ListView.swift in Sources */,
+				ED87CEE72CDD1C6B0043CC60 /* ColorExtension.swift in Sources */,
+				ED64721E2CDDD95D00378BAD /* ViewExtension.swift in Sources */,
+				ED1BBD012CD6930900AF2BA9 /* ClipboardItem.swift in Sources */,
+				ED8E24C22CFCDBF900AA44C5 /* CollectionView.swift in Sources */,
+				ED8E24BA2CFC37E000AA44C5 /* AddCollectionView.swift in Sources */,
+				ED8E24BE2CFCCB5100AA44C5 /* SettingView.swift in Sources */,
+				ED75B79D2CEFA3310080AE6C /* StringExtension.swift in Sources */,
+				ED9837702CDA715D00644FB6 /* CopiedItem.xcdatamodeld in Sources */,
+				ED8E24BC2CFCC77B00AA44C5 /* ItemDetailView.swift in Sources */,
+				ED64721C2CDDD05000378BAD /* ClipboardItemViewModel.swift in Sources */,
+				ED3BF7212D00C1EE0039E72A /* SidebarView.swift in Sources */,
+				ED9837722CDA774900644FB6 /* CoreDataManager.swift in Sources */,
+				ED87CEE92CDD21D20043CC60 /* BorderlessWindowModifier.swift in Sources */,
+				ED8E24C02CFCDA0C00AA44C5 /* SearchBar.swift in Sources */,
+				ED8E24B42CFAF76600AA44C5 /* FilterView.swift in Sources */,
+				ED3BF71F2D00BABF0039E72A /* HeaderView.swift in Sources */,
+				ED285E902CE12FBB000851E9 /* ArrayWrapper.swift in Sources */,
+				131179E02D303C6400A79C17 /* BlurredBackgroundView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1BBCDE2CD692DB00AF2BA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1BBCE72CD692DB00AF2BA9 /* peak_atlas_macosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1BBCE82CD692DB00AF2BA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED1BBCF12CD692DB00AF2BA9 /* peak_atlas_macosUITests.swift in Sources */,
+				ED1BBCF32CD692DB00AF2BA9 /* peak_atlas_macosUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED1BBCE42CD692DB00AF2BA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED1BBCD02CD692DA00AF2BA9 /* peak-atlas-macos */;
+			targetProxy = ED1BBCE32CD692DB00AF2BA9 /* PBXContainerItemProxy */;
+		};
+		ED1BBCEE2CD692DB00AF2BA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED1BBCD02CD692DA00AF2BA9 /* peak-atlas-macos */;
+			targetProxy = ED1BBCED2CD692DB00AF2BA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ED1BBCF42CD692DB00AF2BA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED1BBCF52CD692DB00AF2BA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		ED1BBCF72CD692DB00AF2BA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "peak-atlas-macos/peak_atlas_macos.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"peak-atlas-macos/Preview Content\"";
+				DEVELOPMENT_TEAM = 9BC3VUA27D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sonnyescape.peak-atlas-macos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ED1BBCF82CD692DB00AF2BA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "peak-atlas-macos/peak_atlas_macos.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"peak-atlas-macos/Preview Content\"";
+				DEVELOPMENT_TEAM = 9BC3VUA27D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sonnyescape.peak-atlas-macos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		ED1BBCFA2CD692DB00AF2BA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TU5F8CUGQU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sonnyescape.peak-atlas-macosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/peak-atlas-macos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/peak-atlas-macos";
+			};
+			name = Debug;
+		};
+		ED1BBCFB2CD692DB00AF2BA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TU5F8CUGQU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sonnyescape.peak-atlas-macosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/peak-atlas-macos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/peak-atlas-macos";
+			};
+			name = Release;
+		};
+		ED1BBCFD2CD692DB00AF2BA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TU5F8CUGQU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sonnyescape.peak-atlas-macosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "peak-atlas-macos";
+			};
+			name = Debug;
+		};
+		ED1BBCFE2CD692DB00AF2BA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TU5F8CUGQU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sonnyescape.peak-atlas-macosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "peak-atlas-macos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED1BBCCC2CD692DA00AF2BA9 /* Build configuration list for PBXProject "peak-atlas-macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED1BBCF42CD692DB00AF2BA9 /* Debug */,
+				ED1BBCF52CD692DB00AF2BA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED1BBCF62CD692DB00AF2BA9 /* Build configuration list for PBXNativeTarget "peak-atlas-macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED1BBCF72CD692DB00AF2BA9 /* Debug */,
+				ED1BBCF82CD692DB00AF2BA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED1BBCF92CD692DB00AF2BA9 /* Build configuration list for PBXNativeTarget "peak-atlas-macosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED1BBCFA2CD692DB00AF2BA9 /* Debug */,
+				ED1BBCFB2CD692DB00AF2BA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED1BBCFC2CD692DB00AF2BA9 /* Build configuration list for PBXNativeTarget "peak-atlas-macosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED1BBCFD2CD692DB00AF2BA9 /* Debug */,
+				ED1BBCFE2CD692DB00AF2BA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EDF05D0F2CD8F7A300EFA4E5 /* XCRemoteSwiftPackageReference "HotKey" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/soffes/HotKey";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EDF05D102CD8F7A300EFA4E5 /* HotKey */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EDF05D0F2CD8F7A300EFA4E5 /* XCRemoteSwiftPackageReference "HotKey" */;
+			productName = HotKey;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		ED98376E2CDA715D00644FB6 /* CopiedItem.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ED98376F2CDA715D00644FB6 /* CopiedItem.xcdatamodel */,
+			);
+			currentVersion = ED98376F2CDA715D00644FB6 /* CopiedItem.xcdatamodel */;
+			path = CopiedItem.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ED1BBCC92CD692DA00AF2BA9 /* Project object */;
+}
